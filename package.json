@@ -1,5 +1,5 @@
 {
-  "name": "suit",
+  "name": "templateGenerator",
   "version": "1.0.1",
   "main": "dist/index.js",
   "scripts": {
@@ -7,7 +7,7 @@
     "build": "tsc && shx rm -rf dist/templates && shx cp -r templates dist"
   },
   "bin": {
-    "suit": "./dist/index.js"
+    "generate": "./dist/index.js"
   },
   "license": "MIT",
   "devDependencies": {
