@@ -1,5 +1,5 @@
 {
-  "name": "templateGenerator",
+  "name": "suit",
   "version": "1.0.1",
   "main": "dist/index.js",
   "scripts": {
@@ -7,23 +7,23 @@
     "build": "tsc && shx rm -rf dist/templates && shx cp -r templates dist"
   },
   "bin": {
-    "generate": "./dist/index.js"
+    "suit": "./dist/index.js"
   },
   "license": "MIT",
   "devDependencies": {
     "@types/ejs": "^3.0.4",
     "@types/inquirer": "^0.0.43",
-    "@types/node": "^10.17.28",
-    "@types/shelljs": "^0.8.8",
-    "@types/yargs": "^11.1.5",
+    "@types/node": "^10.9.4",
+    "@types/shelljs": "^0.8.0",
+    "@types/yargs": "^11.1.1",
     "shx": "^0.3.2",
-    "ts-node": "^8.10.2",
-    "typescript": "^3.9.7"
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3"
   },
   "dependencies": {
     "ejs": "^3.1.3",
-    "inquirer": "^6.5.2",
-    "shelljs": "^0.8.4",
-    "yargs": "^12.0.5"
+    "inquirer": "^6.2.0",
+    "shelljs": "^0.8.2",
+    "yargs": "^12.0.1"
   }
 }
